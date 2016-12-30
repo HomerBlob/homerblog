@@ -1,0 +1,37 @@
+html {
+	font-family: "Times New Roman", Helvetica;
+	font-size: 20px;
+	height: 100%;
+}
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.background-logo {
+	background: url('../img/jekyll.png');
+	width: 190px;
+	height: 190px;
+	border-bottom: 1px solid;
+}
+
+.menu-column {
+	width: 190px;
+	padding: 10px;
+	height: 100%;
+	background-color: #114351;
+	position: fixed;
+	font-size: 120%;
+	color: white;
+}
+
+.main-column {
+	margin-left: 240px;
+	min-width: 400px;
+	max-width: 900px;
+	padding: 10px;
+	height: 100%;
+}
