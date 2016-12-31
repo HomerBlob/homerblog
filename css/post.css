@@ -1,0 +1,17 @@
+header.postHeader {
+	border-bottom: 2px solid black;
+}
+
+h1.postTitle {
+	font-size: 300%;
+	color: #114351;
+	font-weight: bolder;
+}
+
+p.postDate {
+	font-size: 150%;
+}
+
+p.postContent {
+	margin-top: 40px;
+}

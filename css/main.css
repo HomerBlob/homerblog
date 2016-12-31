@@ -35,3 +35,15 @@ body {
 	padding: 10px;
 	height: 100%;
 }
+
+a.readMore {
+	font-size: 200%;
+	text-decoration: none;
+	color: blue;
+}
+
+.lineno {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: yellow;
+}

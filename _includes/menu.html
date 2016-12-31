@@ -1,5 +1,24 @@
 <div class="navigation">
   <ul>
+    <li><a href="{{site.baseurl}}/">HOME</a></li>
+    <li class="has-sub"><a href="#">POSTS</a>
+      <ul>
+        {% for category in site.categories %}    
+          <li class="has-sub"><a href="#">{{ category | first }}</a>
+            <ul>
+              {% for post in category.last %}
+                <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+              {% endfor %} 
+            </ul>
+          </li>
+        {% endfor %}
+       </ul>
+    </li>
+  </ul>
+</div>
+
+<!-- <div class="navigation">
+  <ul>
     <li><a href="{{site.baseurl}}/">HOME</a>
     <li class="has-sub"><a href="#">Menu 1</a>
       <ul>
@@ -30,4 +49,4 @@
       </ul>
     </li>
   </ul>
-</div>
+</div> -->
