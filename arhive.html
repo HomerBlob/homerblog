@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="postArticle">
+
+  <header class="postHeader">
+    <h1 class="postTitle">Arhive</h1>
+  </header>
+
+  <p class="postContent">
+  	{% for post in site.posts %}
+    <o>{{ post.date | date_to_long_string }} - <a class="postLink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+    {% endfor %}
+  </p>
+
+</article>

@@ -15,3 +15,12 @@ p.postDate {
 p.postContent {
 	margin-top: 40px;
 }
+
+article.articlePadding {
+	padding-bottom: 200px;
+}
+
+a.postLink {
+	color: blue;
+	text-decoration: none;
+}
