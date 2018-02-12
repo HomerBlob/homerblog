@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Main page</title>
-      <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-      <link rel="stylesheet" href="{{site.baseurl}}/css/menu.css">
-      <link rel="stylesheet" href="{{site.baseurl}}/css/post.css">
-      <link rel="stylesheet" href="{{site.baseurl}}/css/code_highlight.css">
-    </head>
 
-    <body>
-       <div class="menu-column">
-        <div class="background-logo"></div>
-        <div class="menu">
-          {% include menu.html %}
-        </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Main page</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/menu.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/post.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/code_highlight.css">
+  </head>
+
+  <body>
+     <div class="menu-column">
+      <div class="background-logo"></div>
+      <div class="menu">
+        {% include menu.html %}
       </div>
+    </div>
       
-      <div class="main-column">
-        {{ content }}
-      </div>
-    </body>
+    <div class="main-column">
+      {{ content }}
+    </div>
+  </body>
 </html>
